@@ -35,6 +35,7 @@
 |git init|Create a new git repository|
 |git status|Tell you what is happening right now in your repo|
 |git add file|Add file to git track|
+|git add .|Adds all changes made to track|
 |git commit -m""|Create a new commit with a chosen description typed inbetween ""|
 |git commit|Opens up vi for you to manually type in your commit message|
 |git log|Tracks all git commits|

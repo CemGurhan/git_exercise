@@ -4,6 +4,10 @@
 
 |Command|function|
 |---|---|
+|tab|1 tab autocompletes, 2 tab lists subdirectories/files, 3 tab selects|
+|.|This directory|
+|..|Directory above this one|
+|open file|Opens file with default app for that file|
 |ls|Display all files and subdirectories inside of current directory|
 |ls -a|Same as ls, but displays hidden files as well (these files are denoted with a ".")|
 |ls -l|List in a long format, displays file mode, owner and group name, date and time file was modified, pathname etc.|
@@ -23,7 +27,9 @@
 |cp file newFile|Providing a filename in the second path creates a new name for the file as we copy it|
 |cp ~/dir x  .|Copy from the directory "dir x" to here "."|
 |mv file dir|Move a file to a new directory|
+|mv file ..|Move file up a level|
 |mv file newFile|Change the name of a file|
+|mv file dir/newFile|Move file to new directory and change files name|
 |touch file|Create a new file|
 |mkdir dir|Create a new directory|
 |code file|Opens a file in vscode|
